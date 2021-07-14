@@ -1,0 +1,12 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.logo{
+  height: 1.25rem;
+}
+
+.d-block{
+  height: 50vw;
+  width: 100vw;
+}
