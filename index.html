@@ -20,7 +20,7 @@
 </head>
 
 <body>
-  <header>
+  <header id="header">
     <nav class="container-fluid navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
       <div class="container-fluid">
         <a class="navbar-brand" href="#"><img class="logo px-1" src="assets/img/viajes.svg" alt="">Viajes Chile</a>
@@ -30,16 +30,16 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item active">
-                <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#header">Inicio<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Quienes somos</a>
+                <a class="nav-link" href="#quienes_somos">Quienes somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Destacados</a>
+                <a class="nav-link" href="#destacados">Destacados</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contactos</a>
+                <a class="nav-link" href="#contacto">Contacto</a>
               </li>
             </ul>
           </div>
@@ -69,7 +69,7 @@
     </a>
   </div>
 
-  <section class="container  text-white" >
+  <section id="quienes_somos" class="container  text-white d-none d-sm-none d-md-block" >
     <h2 class="text-center border-bottom border-info py-4 my-4">Quiénes somos</h2>
     <div class="row">
       <div class="col-12 col-md-4 my-2">
@@ -87,7 +87,7 @@
     </div>
   </section>
 
-  <section class="container">
+  <section id="destacados" class="container">
     <h2 class="text-center border-bottom border-info text-white py-4 my-4">Destacados</h2>
     <div class="card-deck">
       <div class="card bg-info">
@@ -121,34 +121,24 @@
     </div>
   </section>
 
-<<<<<<< HEAD
-
-
-  </section>
-
-  <footer>
-    <p>lo que sea </p>
-  </footer>
-
-=======
-  <section class="container">
+  <section id="contacto" class="container">
     <h2 class="text-center border-bottom border-info text-white py-4 my-4">Contacto</h2>
+    <div class="typeform-widget mb-4" data-url="https://form.typeform.com/to/VnF4DYG9?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
   </section>
 
   <footer class="container-fluid bg-info text-white">
     <div class="container">
       <div class="row">
-        <h3 class="mt-2">VIAJES CHILE</h3>
+        <h3 class="mt-2 ">VIAJES CHILE</h3>
         <div class="fontawesome ml-auto pt-1 my-2">
-          <i class="fab fa-github-square fa-2x px-1"></i>
-          <i class="fab fa-twitter-square fa-2x px-1"></i>
-          <i class="fab fa-linkedin fa-2x px-1"></i>
-          <i class="fab fa-facebook-square fa-2x px-1"></i>
+          <a class="contactos" href="https://github.com"><i class="fab fa-github-square fa-2x px-1"></i> </a>
+          <a class="contactos" href="https://twitter.com"><i class="fab fa-twitter-square fa-2x px-1"></i></a>
+          <a class="contactos" href="https://wwww.linkedin.com"><i class="fab fa-linkedin fa-2x px-1"></i></a>
+          <a class="contactos" href="https://wwww.facebook.com"><i class="fab fa-facebook-square fa-2x px-1"></i></a>
         </div>
       </div>
     </div>
   </footer>
->>>>>>> f4a2e41cc3800e2d07edb7cd6bbd3c6ad04e76c1
 
   <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" ></script>
