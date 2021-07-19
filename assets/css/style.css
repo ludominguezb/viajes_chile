@@ -16,3 +16,7 @@ body{
   color: #ffffff;
   text-decoration: none;
 }
+
+.cabeceraOscura{
+  background-color: rgba(0, 0, 0, 0.5);
+}
