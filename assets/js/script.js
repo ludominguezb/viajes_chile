@@ -22,21 +22,20 @@ $(function(){
     });
     });
 
-    $( "#clickme3" ).click(function() {
-      $( "#cuerpo3" ).toggle( "800", function() {
-      });
-      });
+  $( "#clickme3" ).click(function() {
+    $( "#cuerpo3" ).toggle( "800", function() {
+    });
+    });
 
 
-      $(window).scroll(function() {
-          var scroll = $(window).scrollTop();
-          if (scroll >= 10) {
-             $("nav").addClass("cabeceraOscura");
-          }else{
-             $("nav").removeClass("cabeceraOscura");
-          }
-      });
-
+  $(window).scroll(function() {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 10) {
+      $("nav").addClass("cabeceraOscura");
+      }else{
+        $("nav").removeClass("cabeceraOscura");
+        }
+        });
 
   $('[data-toggle="tooltip"]').tooltip()
 
