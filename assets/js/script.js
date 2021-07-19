@@ -30,7 +30,7 @@ $(function(){
 
   $(window).scroll(function() {
     var scroll = $(window).scrollTop();
-    if (scroll >= 10) {
+    if (scroll >= $(header).height()) {
       $("nav").addClass("cabeceraOscura");
       }else{
         $("nav").removeClass("cabeceraOscura");
